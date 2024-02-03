@@ -5,14 +5,14 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Dynamic Multilevel Menu</title>
-      <link href="css/bootstrap.css" rel="stylesheet">
-      <link href="css/jquery.smartmenus.bootstrap.css" rel="stylesheet">
-      <link id="switcher" href="css/theme-color/default-theme.css" rel="stylesheet">
-      <link href="css/style.css" rel="stylesheet">
+      <link href="{{asset('/')}}front/css/bootstrap.css" rel="stylesheet">
+      <link href="{{asset('/')}}front/css/jquery.smartmenus.bootstrap.css" rel="stylesheet">
+      <link id="switcher" href="{{asset('/')}}front/css/theme-color/default-theme.css" rel="stylesheet">
+      <link href="{{asset('/')}}front/css/style.css" rel="stylesheet">
       <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
    </head>
    <body>
-   <section id="menu">
+     <section id="menu">
         <div class="container">
             <div class="menu-area">
                 <!-- Navbar -->
@@ -37,8 +37,8 @@
         </div>
     </section>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <script src="js/bootstrap.js"></script>  
-      <script type="text/javascript" src="js/jquery.smartmenus.js"></script>
-      <script type="text/javascript" src="js/jquery.smartmenus.bootstrap.js"></script>  
+      <script src="{{asset('/')}}front/js/bootstrap.js"></script>  
+      <script type="text/javascript" src="{{asset('/')}}front/js/jquery.smartmenus.js"></script>
+      <script type="text/javascript" src="{{asset('/')}}front/js/jquery.smartmenus.bootstrap.js"></script>  
    </body>
 </html>
