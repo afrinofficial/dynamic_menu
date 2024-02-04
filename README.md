@@ -1,3 +1,4 @@
+![image](https://github.com/afrinofficial/dynamic_menu/assets/155042201/afdd6eb7-b5e9-4c9d-b4f8-aaad6ae57d91)
 ![image](https://github.com/afrinofficial/dynamic_menu/assets/155042201/b9029c31-2a83-414d-bb00-98a1f9e68810)
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
