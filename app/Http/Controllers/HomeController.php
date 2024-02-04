@@ -21,7 +21,7 @@ class HomeController extends Controller
         $html = '';
 
         // Filter and sort categories by priority
-        $filteredCategories = $categories->where('parent_id', $parent)->sortBy('priority');
+        $filteredCategories = $categories->where('parent_id', $parent)->where('status', 1)->sortBy('priority');
 
         if ($filteredCategories->count() > 0) {
             $html .= $level == 0 ? '<ul class="nav navbar-nav">' : '<ul class="dropdown-menu">';
