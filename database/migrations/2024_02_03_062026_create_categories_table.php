@@ -13,6 +13,7 @@ class CreateCategoriesTable extends Migration
             $table->string('category');
             $table->unsignedBigInteger('parent_id')->nullable();
             $table->integer('priority')->default(0);
+            $table->integer('status')->default(1);
             $table->timestamps();
 
             $table->foreign('parent_id')->references('id')->on('categories')->onDelete('cascade');
